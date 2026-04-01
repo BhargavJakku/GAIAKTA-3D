@@ -1,0 +1,39 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+
+# Project-specific Data and Outputs
+# These directories contain large datasets, intermediate files, and model outputs
+/colmap/
+/colmap_v2/
+/frames/
+/frames_scaled/
+/ns_data/
+/ns_data_v2/
+/outputs/
+/outputs_v2/
+/raw/
+/splats/
